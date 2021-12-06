@@ -5,6 +5,8 @@ import { getBookById } from '../../services/books'
 
 function BookDetail() {
   const { id } = useParams()
+  // const id = book_id
+  console.log(id)
   const [book, setBook] = useState(null)
 
   useEffect(() => {
